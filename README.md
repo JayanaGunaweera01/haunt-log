@@ -8,6 +8,10 @@ Built for the Halloween "ghost story generator" prompt, on `gemma4:e4b` via Olla
 2. Press **Tell me what happened**.
 3. Read the story. Each scene sits above the log line that proves it, a dread meter is computed from the log, and the log is shown with the cited lines marked.
 
+[![Watch the demo on YouTube](https://img.youtube.com/vi/N7EwWpTVJPs/maxresdefault.jpg)](https://youtu.be/N7EwWpTVJPs)
+
+**Watch the demo: https://youtu.be/N7EwWpTVJPs**
+
 ## Screenshots
 
 | Add a night | The story |
