@@ -1,0 +1,25 @@
+[project]
+name = "hauntlog"
+version = "0.1.0"
+description = "A local ghost story generator: Gemma reads your smart home's sensor log and tells what happened while you slept. Every haunted moment must cite a real log line."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115", "httpx>=0.27", "jinja2>=3.1", "python-multipart>=0.0.9", "uvicorn[standard]>=0.30"]
+
+[project.scripts]
+hauntlog = "hauntlog.launch:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hauntlog"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 125
+target-version = "py312"
